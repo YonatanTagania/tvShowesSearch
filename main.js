@@ -1,7 +1,7 @@
 let searchUrl = "https://api.tvmaze.com/search/shows?q="
 let serchByName = "https://api.tvmaze.com/search/people?q="
 function aWaitingGif() {
-    waitGifId.src = "../../רקעים/waitingGif.gif"
+    waitGifId.src = "./images/waitingGif.gif"
     waitGifId.style.width = "400px"
     waitGifId.style.height = "400px"
 }
