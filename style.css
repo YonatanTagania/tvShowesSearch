@@ -1,0 +1,73 @@
+
+body{
+    background-image: url(vintage-tv-1116587_1920.jpg);
+    background-size: cover;
+}
+#mainHeader {
+    text-align: center;
+    color: white;
+    border: solid black 2px;
+    margin: auto;
+    background-color: black;
+  }
+#searchDiv {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 20%;
+  }
+  
+  
+#infoDiv {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #infoDivv {
+    flex-basis: 32%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid black 2px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    transition: linear 1s;
+  }
+  
+  #infoDivv:hover {
+    transform: scale(1.05);
+  }
+  
+  #infoDivv p {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .pagesButt,.showPage{
+      margin-top: 5px;
+    color: white;
+    background: black;
+  }
+  #waitGifId{
+      margin-top: 15px;
+  }
+
+  
+#infoDivv2 {
+    flex-basis: 32%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid black 2px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 15px;
+    transition: linear 1s;
+  }
+  
+  #infoDivv2:hover {
+    transform: scale(1.05);
+  }
+  
+  #infoDivv2 p {
+    font-size: 26px;
+    text-decoration: underline;
+  }
+  
