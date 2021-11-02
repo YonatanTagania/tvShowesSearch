@@ -59,7 +59,6 @@ nameSearch.onclick = () => {
     getApi(serchByName + nameInput.value).then((res) => { displayNames(res); })
         .catch((rej) => { console.log(rej); })
         .finally(() => { waitGifId.style.display = "none" })
-
 }
 
 
